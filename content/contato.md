@@ -2,5 +2,4 @@
 title: "Contato"
 ---
 
-Email: contato@minhaong.org
-ou ligue para nós!
+Email: poliretribua1@politecnicos.org.br

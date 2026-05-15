@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contato – PoliRetribua</title>
@@ -74,10 +74,14 @@
     }
 
     .brand img {
-      width: 80px;
-      max-width: 100%;
-      height: auto;
-      display: block;
+     width: 220px;
+     max-width: 100%;
+     height: auto;
+     display: block;
+     border-radius: 16px;
+     background: transparent;
+     padding: 6px;
+     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
     }
 
     .site-nav {
@@ -360,6 +364,72 @@
       padding-left: 1.2rem;
     }
 
+    .campaign-intro {
+      margin-bottom: 0;
+    }
+
+    .campaign-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .campaign-block {
+      margin: 0;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .campaign-block:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 36px 88px rgba(7, 18, 16, 0.12);
+    }
+
+    .campaign-block-header {
+      margin-bottom: 18px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .campaign-block-header h2 {
+      margin: 10px 0 0;
+      font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+    }
+
+    .campaign-date {
+      display: inline-block;
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--primary-soft);
+    }
+
+    .campaign-block-body > *:first-child {
+      margin-top: 0;
+    }
+
+    .campaign-block-body > *:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 900px) {
+      .campaign-block {
+        max-width: min(100%, 920px);
+      }
+
+      .campaign-block--alt {
+        margin-left: auto;
+        margin-right: 0;
+        border-left: 4px solid var(--accent);
+      }
+
+      .campaign-block:not(.campaign-block--alt) {
+        margin-left: 0;
+        margin-right: auto;
+        border-right: 4px solid rgba(23, 92, 74, 0.22);
+      }
+    }
+
     .page-footer {
       margin: 0 28px 48px;
       padding: 28px;
@@ -438,6 +508,7 @@
       <div class="brand"><a href="/"><img src="/images/logo_retribua.jpg" alt="PoliRetribua"></a></div>
       <nav class="site-nav">
         <a href="/institucional/">Institucional</a>
+        <a href="/campanhas/">Campanhas</a>
         <a href="/alunos/">Alunos</a>
         <a href="/mentores/">Mentores</a>
         <a href="/doe/">Doe</a>
@@ -473,8 +544,7 @@
       
   <section class="page-section">
     <h1>Contato</h1>
-    <p>Email: <a href="mailto:contato@minhaong.org">contato@minhaong.org</a>
-ou ligue para nós!</p>
+    <p>Email: <a href="mailto:poliretribua1@politecnicos.org.br">poliretribua1@politecnicos.org.br</a></p>
 
   </section>
 

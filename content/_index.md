@@ -9,6 +9,7 @@ Somos uma iniciativa de mentoria e bolsas para estudantes politécnicos em situa
 ## Seções
 
 - [Institucional](/institucional/)
+- [Campanhas](/campanhas/)
 - [Alunos](/alunos/)
 - [Mentores](/mentores/)
 - [Doe](/doe/)

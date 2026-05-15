@@ -364,6 +364,72 @@
       padding-left: 1.2rem;
     }
 
+    .campaign-intro {
+      margin-bottom: 0;
+    }
+
+    .campaign-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .campaign-block {
+      margin: 0;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .campaign-block:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 36px 88px rgba(7, 18, 16, 0.12);
+    }
+
+    .campaign-block-header {
+      margin-bottom: 18px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .campaign-block-header h2 {
+      margin: 10px 0 0;
+      font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+    }
+
+    .campaign-date {
+      display: inline-block;
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--primary-soft);
+    }
+
+    .campaign-block-body > *:first-child {
+      margin-top: 0;
+    }
+
+    .campaign-block-body > *:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 900px) {
+      .campaign-block {
+        max-width: min(100%, 920px);
+      }
+
+      .campaign-block--alt {
+        margin-left: auto;
+        margin-right: 0;
+        border-left: 4px solid var(--accent);
+      }
+
+      .campaign-block:not(.campaign-block--alt) {
+        margin-left: 0;
+        margin-right: auto;
+        border-right: 4px solid rgba(23, 92, 74, 0.22);
+      }
+    }
+
     .page-footer {
       margin: 0 28px 48px;
       padding: 28px;
@@ -442,6 +508,7 @@
       <div class="brand"><a href="/"><img src="/images/logo_retribua.jpg" alt="PoliRetribua"></a></div>
       <nav class="site-nav">
         <a href="/institucional/">Institucional</a>
+        <a href="/campanhas/">Campanhas</a>
         <a href="/alunos/">Alunos</a>
         <a href="/mentores/">Mentores</a>
         <a href="/doe/">Doe</a>
@@ -486,7 +553,7 @@
 </ul>
 <h3 id="como-participar">Como participar</h3>
 <p>Estudantes interessados podem entrar em contato para saber sobre processos seletivos e programas de bolsa. O objetivo é garantir que cada aluno tenha condições competitivas para concluir a graduação.</p>
-<p><a href="/downloads/manual-do-aluno.pdf">Baixe o Manual do Aluno</a></p>
+<p>Baixe o <a href="/downloads/manual-do-aluno.pdf"><strong>Manual do Aluno</strong></a></p>
 <h3 id="benefícios">Benefícios</h3>
 <ul>
 <li>Rede de apoio de mentores voluntários</li>
@@ -494,6 +561,9 @@
 <li>Espaço para trocar experiências e falar sobre dificuldades</li>
 <li>Acesso a encontros, palestras e rodas de conversa</li>
 </ul>
+<h3 id="bolsas-de-estudos">Bolsas de Estudos</h3>
+<p>As bolsas de estudos são oferecidas de maio a fevereiro (10 parcelas) e as inscrições são realizads nos meses de março e abril, podendo se estender.</p>
+<p>Para obter maiores informações sobre as bolsas, acesse nosso  <a href="/downloads/EDITAL-DE-2026-PARA-BOLSAS-POLI-RETRIBUA.pdf"><strong>Edital de Bolsas</strong></a></p>
 
   </section>
 
