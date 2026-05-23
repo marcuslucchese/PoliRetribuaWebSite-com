@@ -28,7 +28,7 @@
 
   {{ with .Params.transparency }}
     <section class="page-section">
-      {{ . | markdownify }}
+      {{ . | $.Page.RenderString }}
     </section>
   {{ end }}
 {{ end }}

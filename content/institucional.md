@@ -12,6 +12,12 @@ stats:
   - value: "5"
     label: "notebooks doados"
 transparency: |
+  ### Depoimentos
+
+  Veja depoimentos sobre nosso programa:
+
+  {{< youtube-playlist PLXhCuLEVg2eLyiattO1qcciMcYQSms27F "Depoimentos PoliRetribua" >}}
+
   ### Transparência
 
   Acesse o [**Relatório Financeiro 2025**](/downloads/POLI_ALUMNI-Relatorio_Financeiro-Jan25_a_Nov25.pptx)
