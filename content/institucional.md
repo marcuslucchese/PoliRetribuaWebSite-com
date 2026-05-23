@@ -1,5 +1,20 @@
 ---
 title: "Institucional"
+type: institucional
+stats_heading: "Nossos números"
+stats_intro: "Somos uma rede com mais de **uma centena** de voluntários, que já ajudou **centenas** de alunos ao longo de quase **10 anos** de história."
+stats_year_note: "Em 2026, contamos com:"
+stats:
+  - value: "40"
+    label: "pares mentores/alunos ativos"
+  - value: "12"
+    label: "alunos assistidos com bolsas"
+  - value: "5"
+    label: "notebooks doados"
+transparency: |
+  ### Transparência
+
+  Acesse o [**Relatório Financeiro 2025**](/downloads/POLI_ALUMNI-Relatorio_Financeiro-Jan25_a_Nov25.pptx)
 ---
 
 O PoliRetribua nasceu para fortalecer a trajetória acadêmica de estudantes da Escola Politécnica da USP que ingressam por ação afirmativa e enfrentam desafios socioeconômicos.
@@ -23,16 +38,4 @@ Ser referência em mentorias e oportunidades de apoio para todos os ingressantes
 
 O projeto é conduzido por um grupo de voluntários, egressos da Poli, e conta com coordenadores, mentores, equipe de apoio e parceiros dedicados à formação e apoio dos estudantes.
 
-Somos uma iniciativa do Poli Alumni, com sede no prédio de administração da Poli. Para saber mais detalhes do Poli Alumni, acesse **politecnicos.org.br**
-
-### Nossos números
-
-Em 2026, contamos com:
-
- - **40** pares de mentores ativos
- - **30** alunos assistidos com bolsas
- - **5** notebooks doados
-
-### Transparência
-
-Acesse o [**Relatório Financeiro 2025**](/downloads/POLI_ALUMNI-Relatorio_Financeiro-Jan25_a_Nov25.pptx)
+Somos uma iniciativa do Poli Alumni, com sede no prédio de administração da Poli. Para saber mais detalhes do Poli Alumni, acesse [politecnicos.org.br](https://politecnicos.org.br)
