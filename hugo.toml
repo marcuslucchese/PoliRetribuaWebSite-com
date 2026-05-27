@@ -1,4 +1,7 @@
-baseURL = "https://poliretribua.com.br/"
+baseURL = "https://poliretribua.com.br"
+relativeURLs = true
+canonifyURLs = true
+
 languageCode = "pt-br"
 title = "PoliRetribua"
 
